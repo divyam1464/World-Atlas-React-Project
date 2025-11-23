@@ -15,7 +15,7 @@ export const Headers = () => {
         <div className="grid navbar-grid">
           <div className="Logo">
             <NavLink to="/">
-              <h1>WorldAtlas</h1>
+              <h1 className="no-underline">WorldAtlas</h1>
             </NavLink>
           </div>
           <nav className={show ? "menu-mobile" : "menu-web"}>
